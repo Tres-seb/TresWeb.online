@@ -537,7 +537,16 @@
 			</div>
 		</footer>
 		
-		
+		<script>
+  window.onload = function () {
+    // Only auto-scroll if screen width is less than or equal to 768px (mobile)
+    if (window.innerWidth <= 768) {
+      setInterval(() => {
+        window.scrollBy(0, 1);
+      }, 50);
+    }
+  };
+</script>
 
 		
 
