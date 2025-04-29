@@ -9789,3 +9789,9 @@ textarea.form-control {
     border-bottom: 1px solid #ccc;
   }
 }
+@media screen and (max-width: 768px) {
+  nav {
+    position: static !important; /* Removes sticky/fixed behavior on mobile */
+    top: auto !important;
+  }
+}
